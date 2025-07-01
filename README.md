@@ -1,1 +1,2 @@
-# system_engineering-devops
+"# My Project" 
+"This project contains a script to print the current working directory." 
