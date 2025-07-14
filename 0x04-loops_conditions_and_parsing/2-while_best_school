@@ -1,9 +1,7 @@
 #!/usr/bin/env bash
-# This script displays "Best School" 10 times
-
-i=10
-while [ "$i" -gt 0 ] ; do
-  echo "Best School"
-  i=$((i-1))
+# This script is displaying "Best School" 10 times
+i=0
+while [ $((i++)) -lt 10 ]
+do
+    echo "Best School"
 done
-# The variable i now equals 0 after the loop
