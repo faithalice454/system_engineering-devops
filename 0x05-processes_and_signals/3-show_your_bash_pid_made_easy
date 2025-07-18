@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Display processes with word bash but without having to pipe to filter
+pgrep -lo bash
+pgrep -ln bash
