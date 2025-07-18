@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Utilising signal 9 (SIGKILL) to completely remove process
+pgrep -f "7-highlander" | xargs -r kill -SIGKILL
